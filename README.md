@@ -1,5 +1,5 @@
 # dotfiles
-inspired by this [article](https://www.atlassian.com/git/tutorials/dotfiles) i have created a bare gitrepo of my own configuration that i use on my macbook on daily a basis.
+inspired by this [article](https://www.atlassian.com/git/tutorials/dotfiles) i have created a bare gitrepo of my own configuration that i use on my macbook on a daily basis.
 
 ## How to Share
 If you haven't been tracking your configurations in a Git repository before, you can start using this technique easily with these lines
