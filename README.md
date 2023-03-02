@@ -1,6 +1,4 @@
 # dotfiles
-
-## Inspiration
 inspired by this [article](https://www.atlassian.com/git/tutorials/dotfiles) i have created a bare gitrepo of my own configuration used with my macbook on daily basis.
 
 ## How to Share
