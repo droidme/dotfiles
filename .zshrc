@@ -108,7 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-source .alias
+source $HOME/.alias
 export PATH="/$HOME/scripts:/usr/local/opt/node@16/bin:$PATH"
 set -o vi
 

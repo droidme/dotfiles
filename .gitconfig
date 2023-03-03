@@ -11,6 +11,7 @@
   user = rmerfeld
 [alias]
   a = "!git status --short | peco | awk '{print $2}' | xargs git add"
+  st = status
   co = checkout
   ci = commit
   df = "!git hist | peco | awk '{print $2}' | xargs -I {} git diff {}^ {}"
