@@ -1,6 +1,6 @@
 [core]
-	excludesfile = ~/.config/gitignore
-	editor = nvim
+  excludesfile = ~/.config/gitignore
+  editor = nvim
   ignorecase = false
 [push]
   default = simple
