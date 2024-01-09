@@ -118,3 +118,6 @@ source <(ng completion script)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# ruby path adjustments
+export PATH="/usr/local/lib/ruby/gems/3.2.0/bin:/usr/local/opt/ruby/bin:$PATH"
