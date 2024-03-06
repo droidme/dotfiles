@@ -39,7 +39,7 @@ echo ".bare_cfg" >> .gitignore
 Now you can clone your dotfiles into the bare repo.
 
 ```sh
-git clone --bare <git-repo-url> $HOME/.bare_cfg
+git clone --bare https://github.com/rmerfeld/dotfiles.git $HOME/.bare_cfg
 ```
 
 and checkout the configs to your $HOME
