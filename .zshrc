@@ -109,15 +109,12 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 source $HOME/.alias
-export PATH="/$HOME/scripts:/usr/local/opt/node@16/bin:$PATH"
+
+# openjdk via hombrew
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+# vim options
 set -o vi
-
-
-# Load Angular CLI autocompletion.
-# source <(ng completion script)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# ruby path adjustments
-export PATH="/usr/local/lib/ruby/gems/3.2.0/bin:/usr/local/opt/ruby/bin:$PATH"
