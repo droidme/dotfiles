@@ -111,9 +111,6 @@ source $ZSH/oh-my-zsh.sh
 #
 source $HOME/.alias
 
-# openjdk via hombrew
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-
 # vim options
 set -o vi
 

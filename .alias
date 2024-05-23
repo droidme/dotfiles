@@ -7,3 +7,12 @@ alias la='ls -lha'
 alias le='ls -lha@'
 alias vi=nvim
 alias config='/usr/bin/git --git-dir=$HOME/.bare_cfg/ --work-tree=$HOME'
+
+jenv() {
+  if [[ -n $* ]]; then
+    export JAVA_HOME=`/usr/libexec/java_home -v $1`
+  else
+    export JAVA_HOME=`/usr/libexec/java_home`
+  fi
+  java --version
+}
