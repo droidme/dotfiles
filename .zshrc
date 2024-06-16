@@ -110,6 +110,8 @@ source $ZSH/oh-my-zsh.sh
 #
 source $HOME/.alias
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 # vim options
 set -o vi
 
