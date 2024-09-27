@@ -8,7 +8,12 @@ alias le='ls -lha@'
 alias vi=nvim
 alias config='/usr/bin/git --git-dir=$HOME/.bare_cfg/ --work-tree=$HOME'
 
-alias code='open -na "IntelliJ IDEA CE.app" --args "$@"'
+# alias for generation of a maven project for camel with spring boot
+#
+alias nc='mvn archetype:generate \
+  -DarchetypeGroupId=org.apache.camel.archetypes \
+  -DarchetypeArtifactId=camel-archetype-spring-boot \
+  -DarchetypeVersion=4.6.0'
 
 jenv() {
   if [[ -n $* ]]; then
