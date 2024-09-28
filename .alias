@@ -7,6 +7,7 @@ alias la='ls -lha'
 alias le='ls -lha@'
 alias vi=nvim
 alias config='/usr/bin/git --git-dir=$HOME/.bare_cfg/ --work-tree=$HOME'
+alias cdp='cd ~/Projects'
 
 # alias for generation of a maven project for camel with spring boot
 #
