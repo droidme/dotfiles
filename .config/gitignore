@@ -52,6 +52,10 @@ buildNumber.properties
 .code-workspace
 
 ##############################
+## IntelliJ Idea
+.idea
+
+##############################
 ## OS X
 ##############################
 .DS_Store

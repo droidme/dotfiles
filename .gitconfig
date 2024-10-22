@@ -2,15 +2,17 @@
   excludesfile = ~/.config/gitignore
   editor = nvim
   ignorecase = false
-	filemode = false
+  filemode = false
+  pager = less -x4
 [push]
   default = simple
 [user]
   name = Reinhard Merfeld
-  email = reinhard@merfeld.info
+  email = merfeldo@icloud.com
 [github]
-  user = rmerfeld
+  user = droidme
 [alias]
+  # basic
   st = status -sb
   ll = log --oneline
   last = log -1 HEAD --stat
